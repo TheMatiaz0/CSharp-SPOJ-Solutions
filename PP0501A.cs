@@ -16,7 +16,7 @@ public class PP0501A
 	{
 		for (int i = 0; i < loop; i++)
 		{
-			// Next, you have to type two numbers splitted by whitespace:
+			// Next, you have to type two numbers splitted with whitespace:
 			string input = Console.ReadLine();
 			string[] words = input.Split(null);
 			int a = int.Parse(words[0]);
@@ -27,7 +27,7 @@ public class PP0501A
 	}
 
 	/// <summary>
-	/// Calculation of greatest common divisor
+	/// Calculation of greatest common divisor based on Euclidean algorithm
 	/// </summary>
 	/// <param name="a">First number</param>
 	/// <param name="b">Second number</param>
