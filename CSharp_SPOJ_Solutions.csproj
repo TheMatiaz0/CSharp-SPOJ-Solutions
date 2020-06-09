@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>RNO_DOD</StartupObject>
+    <StartupObject>PIEK</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="KC001.cs" />
+    <Compile Include="PIEK.cs" />
     <Compile Include="POTSAM.cs" />
     <Compile Include="PP0501A.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
